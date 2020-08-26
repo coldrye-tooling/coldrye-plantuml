@@ -1,0 +1,20 @@
+' coldrye-plantuml#workflow.puml
+' https://github.com/coldrye/coldrye-plantuml
+
+' Dependencies
+!includeurl https://raw.githubusercontent.com/coldrye/coldrye-plantuml/$CRY_RELEASE/styles.puml
+
+
+!unquoted procedure $cry_draft($p_version="1", $p_color=$CRY_DRAFT_COLOR, $p_bg_color=$CRY_DRAFT_BG_COLOR)
+skinparam backgroundColor $p_bg_color
+skinparam handwritten true
+skinparam defaultFontName "Serif"
+right header <font color=$p_color>DRAFT\nVersion: $p_version</font>
+!endprocedure
+
+
+!unquoted procedure $cry_final($p_version="1", $p_color=$CRY_FINAL_COLOR, $p_bg_color=$CRY_FINAL_BG_COLOR)
+skinparam backgroundColor $p_bg_color
+skinparam defaultFontName "Serif"
+right header <font color=green>FINAL</font> Version: $p_version
+!endprocedure

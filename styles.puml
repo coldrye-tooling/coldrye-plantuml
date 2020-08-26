@@ -1,0 +1,24 @@
+' coldrye-plantuml#styles.puml
+' https://github.com/coldrye/coldrye-plantuml
+
+' TBD:Standard Colors
+!$CRY_COLOR = #0072C6
+!$CRY_BG_COLOR = #FFFFFF
+!$CRY_BORDER_COLOR = #3C7FC0
+!$CRY_SYMBOL_COLOR = $CRY_COLOR
+
+!$CRY_DRAFT_COLOR = red
+!$CRY_DRAFT_BG_COLOR = #EEEBDC
+
+!$CRY_FINAL_COLOR = green
+!$CRY_FINAL_BG_COLOR = #EEEBDC
+
+
+' TBD:Standard Font Sizes
+!$CRY_FONT_SIZE = 12
+!$CRY_FONT_SIZE_S = 10
+!$CRY_FONT_SIZE_XS = 8
+!$CRY_FONT_SIZE_XXS = 6
+!$CRY_FONT_SIZE_L = 16
+!$CRY_FONT_SIZE_XL = 20
+!$CRY_FONT_SIZE_XXL = 24
